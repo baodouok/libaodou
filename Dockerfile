@@ -1,3 +1,2 @@
-FROM ubuntu
-RUN apt-get -y update && apt-get install -y nginx
+FROM nginx
 EXPOSE 80
