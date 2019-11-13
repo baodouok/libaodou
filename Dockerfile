@@ -1,3 +1,3 @@
-FROM nginx:1.8
+FROM centos:latest
 EXPOSE 80
 CMD ["-c"]
